@@ -10,7 +10,7 @@
 	</parent>
 
 	<groupId>com.franciscogarrido.projects</groupId>
-	<artifactId>spring-boot-jsf-primefaces-jpa-mysql-booking-example</artifactId>
+	<artifactId>student</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<packaging>war</packaging>
