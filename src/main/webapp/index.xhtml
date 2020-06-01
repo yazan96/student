@@ -8,7 +8,7 @@
 	xmlns:pe="http://primefaces.org/ui/extensions">
 <html lang="en">
 <h:head>
-<title>student1</title>
+<title>student</title>
 <!-- Meta tag Keywords -->
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -16,31 +16,27 @@
 function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Meta tag Keywords -->
 
-<!-- css files -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- //css files -->
-
 <!-- online-fonts -->
 <link href="//fonts.googleapis.com/css?family=Ubuntu+Condensed&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext" rel="stylesheet" />
 <!--//online-fonts -->
 </h:head>
 <h:body>
 <div class="header">
-	<h1>student 2</h1>
+	<h1>student data</h1>
 </div>
 
 <div class="w3-main">
 	<!-- Main -->
 	<div class="about-bottom">
 		<div class="w3l_about_bottom_right two">
-			<h2 class="tittle">Formulario</h2>
+			<h2 class="tittle">info</h2>
 			<div class="book-form">
 
 			    <h:form id="form">
 			    	<p:messages id="messages" showDetail="true" autoUpdate="true" closable="true" />
 			    
 					<div class="form-date-w3-agileits">
-						<label> Nombre :</label>
+						<label> Name :</label>
 						<p:inputText id="name" value="#{formController.reserva.name}" requiredMessage="" />
 					</div>
 					<div class="form-date-w3-agileits second-agile">
@@ -48,16 +44,16 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<p:inputText id="mail" value="#{formController.reserva.email}"  />
 					</div>
 					<div class="form-date-w3-agileits">
-						<label> age :</label>
+						<label>   age  :  </label>
 						<p:inputText id="age" value="#{formController.reserva.age}"  />
 					</div>
 					<div class="form-date-w3-agileits">
-						<label> gender :</label>
+						<label> gender:</label>
 						<p:inputText id="gender" value="#{formController.reserva.gender}" />
 
 					</div>
 					<div class="form-date-w3-agileits">
-						<label> address :</label>
+						<label> address:</label>
 						<p:inputText id="address" value="#{formController.reserva.address}" />
 
 					</div>
@@ -81,10 +77,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			</div>
 
 		</div>
-		<div class="w3l_about_bottom_left">
-			
-			<img src="images/real1.jpg" alt="" class="img-responsive" />
-		</div>
+
 		
 		<div class="clear"> </div>
 	</div>
@@ -92,9 +85,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //Main -->
 
 <!-- footer -->
-<div class="footer-w3l">
-	<p>2017 Reservas Hotel</p>
-</div>
+
 <!-- //footer -->
 
 </h:body>

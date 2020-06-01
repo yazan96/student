@@ -36,7 +36,9 @@ import com.franciscogarrido.jsf.FacesViewScope;
 import com.sun.faces.config.FacesInitializer;
 
 @Configuration
+
 @EnableAutoConfiguration(exclude = { JpaConfig.class })
+
 @ComponentScan
 @SpringBootApplication
 @EnableTransactionManagement
