@@ -6,7 +6,8 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
-          <factory-entry name="spring-boot-jsf-primefaces-jpa-mysql-booking-example" />
+      
+          <factory-entry name="spring-student" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>
